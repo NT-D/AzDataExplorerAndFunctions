@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+      "ClientId": "your client id",
+      "ClientSecret": "your client secret",
+      "TenantId": "your tenant id",
+      "KustoUri": "your kusto uri",
+      "TestDb": "your database in Azure Data Explorer",
+      "TestTable": "your table in Azure Data Explorer database"
+    }
+  }
+  
