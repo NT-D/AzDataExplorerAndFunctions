@@ -34,7 +34,7 @@ namespace CseSample.Services
                     {
                         result.Add(new TestTable()
                         {
-                            // Need to investigate how to convert 
+                            // Need to investigate better way to convert table data to appropriate model with low operation/computing cost
                             TimeStamp = DateTime.Parse(reader[0].ToString()),
                             Name = reader[1].ToString(),
                             Metric = int.Parse(reader[2].ToString()),
